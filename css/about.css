@@ -1,0 +1,76 @@
+.about{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-container{
+    border-radius: 0 0 50px 0;
+    border-right: 10px solid var(--firstColor);
+    border-bottom: 2px solid var(--firstColor);
+    padding-bottom: 10px;
+    width: 80%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -40px;
+}
+.about-left{
+    background-color: var(--secondColor);
+    width: 40%;
+    height: 100%;
+    border-radius: 100px 0 50px  0;
+}
+.about-img{
+    border-radius: 200px 0 100px 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/img/boy.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}   
+.about-right{
+    font-family: 'DmSansBold', sans-serif;
+    padding-left: 10px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+}
+.pre-title{
+    font-size: 18px;
+}
+.about-right h1{
+    margin-bottom: 10px;
+}
+.about-right p{
+    font-size: 14px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+table{
+    width: 100%;
+    margin-bottom: 10px;
+}
+td{
+    font-size: 14px;
+}
+.about-right h2{
+    font-size: 24px;       
+}
+.expertise{
+    display: flex;
+}
+.html, .css, .js{   
+    border-radius: 10px;
+    padding: 10px;
+    margin: 8px;
+    background-color: gray  ;
+}
+div.html{background-color: orange;}
+div.css{background-color:cornflowerblue;}
+div.js{background-color: yellow;}
